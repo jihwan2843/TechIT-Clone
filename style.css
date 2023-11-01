@@ -161,36 +161,36 @@ ul {
   font-size: 18px;
 }
 
-.techit-school-container {
+.techit-school {
   max-width: 1280px;
   margin: auto;
   margin-top: 80px;
 }
 
-.techit-school-container > div {
+.techit-school > div {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
-.techit-school-container > div > div > h5 {
+.techit-school > div > div > h5 {
   color: #e67800;
   font-size: 16px;
   font-weight: 600;
 }
 
-.techit-school-container > div > div > h3 {
+.techit-school > div > div > h3 {
   margin-top: 8px;
   font-size: 26px;
   font-weight: 600;
 }
 
-.techit-school-container > div > button {
+.techit-school > div > button {
   font-size: 14px;
   font-weight: 600;
 }
 
-.techit-school-container > ul {
+.techit-school > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
@@ -198,7 +198,7 @@ ul {
   margin-top: 40px;
 }
 
-.techit-school-container > ul > li {
+.techit-school > ul > li {
   width: 290px;
   height: 416px;
 }
@@ -214,7 +214,7 @@ ul {
   transform: scale(1.1);
 }
 
-.techit-school-container > ul > li > span {
+.techit-school > ul > li > span {
   font-size: 14px;
   font-weight: 600;
   color: #3f3f46;
@@ -223,13 +223,13 @@ ul {
   padding: 4px 8px;
 }
 
-.techit-school-container > ul > li > h3 {
+.techit-school > ul > li > h3 {
   font-size: 20px;
   font-weight: 600;
   margin: 16px 0 8px 0;
 }
 
-.techit-school-container > ul > li > h5 {
+.techit-school > ul > li > h5 {
   font-size: 18px;
 }
 
@@ -293,4 +293,62 @@ ul {
   margin-top: 20px;
   font-size: 14px;
   color: #737373;
+}
+
+.onboarding > li > .img-container {
+  margin-bottom: 16px;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 398px;
+  height: 198px;
+}
+
+.onboarding > li > .img-container > img {
+  width: 398px;
+  height: 198px;
+  transition: all 0.5s;
+}
+
+.onboarding > li > .img-container > img:hover {
+  transform: scale(1.1);
+}
+
+.onboarding > li > h5 {
+  font-size: 14px;
+}
+
+.onboarding > li > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.price > span {
+  font-size: 14px;
+  margin-left: 4px;
+  color: #a3a3a3;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.onboarding > li > span {
+  color: #e67800;
+  background-color: #ffedd5;
+  padding: 2px 6px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.onboarding {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 40px;
+  justify-items: center;
 }
