@@ -352,3 +352,44 @@ ul {
   gap: 60px 40px;
   justify-items: center;
 }
+
+.education > li {
+  width: 540px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 40px;
+  background-size: cover;
+}
+
+.edu-techit {
+  background-image: url("./images/techit.png");
+}
+
+.edu-onboarding {
+  background-image: url("./images/kdc.png");
+}
+
+.edu-startup {
+  background-image: url("./images/startup.png");
+}
+.education > li > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.education > li > h5 {
+  font-size: 16px;
+}
+
+.education > li > button {
+  color: #737373;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
